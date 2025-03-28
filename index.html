@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Plantas Medicinales</title>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+ /* General */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    /* Encabezado */
+    header img {
+        width: 300px; /* Ajusta el ancho deseado */
+        height: auto; /* Mantiene la proporción original */
+        margin: 0 auto; /* Centra la imagen dentro de su contenedor */
+        display: block; /* Asegura que se comporte como un elemento de bloque */
+
+    }
+    header {
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2.5em;
+    }
+
+    header p {
+        font-size: 1.2em;
+    }
+
+    /* Categorías */
+    #categorias {
+        background-color: #e8f5e9;
+        padding: 15px;
+        text-align: center;
+    }
+
+    #categorias ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    #categorias li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+    #categorias a {
+        text-decoration: none;
+        color: #4caf50;
+        font-weight: bold;
+    }
+
+    #categorias a:hover {
+        text-decoration: underline;
+    }
+
+    /* Secciones */
+    section {
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 800px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    section h2 {
+        color: #4caf50;
+        border-bottom: 2px solid #4caf50;
+        padding-bottom: 5px;
+    }
+
+    /* Artículos */
+    .planta {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .planta h3 {
+        color: #333;
+    }
+
+    .planta img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+    .planta p {
+        font-size: 1em;
+        color: #555;
+    }
+
+    /* Pie de página */
+    footer {
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 20px;
+    }
+
+    footer p {
+        margin: 0;
+    }
+        </style>    
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Catálogo de Plantas Medicinales en el municipio de San Juan</h1>
+        <img src="imagen2.png" alt="Logo del Herbolario">
+        <p>Descubre las propiedades y usos tradicionales de las plantas medicinales.</p>
+    </header>
+    
+    <!-- Sección Categorías -->
+    <section id="categorias">
+        <h2>Categorías</h2>
+        <ul>
+            <li><a href="#digestivas">Digestivas</a></li>
+            <li><a href="#piel">Para la piel</a></li>
+            <li><a href="#antiinflamatorias">Antiinflamatorias</a></li>
+        </ul>
+    </section>
+    
+    <!-- Sección Digestivas -->
+    <section id="digestivas">
+        <h2>Plantas Digestivas</h2>
+        <article class="planta">
+            <h3>Manzanilla</h3>
+            <img src="manzanilla.jpg" alt="Imagen de manzanilla">
+            <p>Propiedades: Ayuda a aliviar problemas digestivos y reduce el estrés.</p>
+        </article>
+        <article class="planta">
+            <h3>Hierbabuena</h3>
+            <img src="depositphotos_150267880-stock-photo-yerba-buena-hierba-buena-mojito.jpg" alt="Imagen de Hierbabuena">
+            <p>Propiedades: Alivia dolores de cabeza y mejora la digestión.</p>
+        </article>
+    </section>
+    
+    <!-- Sección Para la piel -->
+    <section id="piel">
+        <h2>Plantas para el cuidado de la piel</h2>
+        <article class="planta">
+            <h3>Aloe Vera</h3>
+            <img src="aloe-vera.jpg" alt="Imagen de Aloe Vera">
+            <p>Propiedades: Ideal para hidratar y reparar la piel dañada.</p>
+        </article>
+    </section>
+    
+    <!-- Sección Antiinflamatorias -->
+    <section id="antiinflamatorias">
+        <h2>Plantas Antiinflamatorias</h2>
+        <article class="planta">
+            <h3>Cúrcuma</h3>
+            <img src="curcuma.jpg" alt="Imagen de Cúrcuma">
+            <p>Propiedades: Ayuda a reducir la inflamación y fortalece el sistema inmune.</p>
+        </article>
+    </section>
+    
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2025 Herbolario Digital. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
